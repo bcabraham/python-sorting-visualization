@@ -17,21 +17,22 @@ implement worst to best:
 - radix sort (LSD/MSD)
 - recombinant sort
 
-## track stats:
-- # of comparisons
-- # of swaps or operations
+## stats
+- num of comparisons
+- num of swaps or operations
 - memory usage?
 - list length
 - time to complete
 
-## tools:
+## tools
 - random number generator
 - deterministic random generator that can generate lists with certain characteristics, like clumping
 
-## tests:
+## performance tests
 - progressively larger lists
 - a long reversed list
 - non-unique values
+- clumped values vs truly random
 
 ## Future projects
 https://en.wikipedia.org/wiki/Search_algorithm
